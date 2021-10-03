@@ -32,6 +32,7 @@ namespace Play.Catalog.Service.Controllers
             return item;
         }
 
+        // POST /items/
         [HttpPost]
         public ActionResult<ItemDto> Post(CreateItemDto createItemDto)
         {
@@ -57,6 +58,16 @@ namespace Play.Catalog.Service.Controllers
 
             var index = items.FindIndex(existingItem => existingItem.Id == id);
             items[index] = updateItem;
+
+            return NoContent();
+        }
+
+        // DELETE /items/{id}/
+        [HttpDelete("{id}")]
+        public IActionResult Delete(Guid id)
+        {
+            var index = items.FindIndex(existingItem => existingItem.Id == id);
+            items.RemoveAt(index);
 
             return NoContent();
         }
