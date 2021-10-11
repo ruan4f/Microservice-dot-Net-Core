@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Driver;
@@ -21,6 +22,13 @@ namespace Play.Catalog.Service.Repositories
         public async Task<IReadOnlyCollection<Item>> GetAllAsync()
         {
             return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
+        }
+
+        public async Task<Item> GetItemAsync(Guid id)
+        {
+            FilterDefinition<Item> filter = filterBuilder.Eq(entity => entity.Id, id);
+
+            return await dbCollection.Find(filter).FirstOrDefaultAsync();
         }
 
     }
