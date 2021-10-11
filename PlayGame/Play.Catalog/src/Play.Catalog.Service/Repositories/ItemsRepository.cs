@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using MongoDB.Driver;
 using Play.Catalog.Service.Entities;
 
@@ -12,8 +14,13 @@ namespace Play.Catalog.Service.Repositories
         public ItemsRepository()
         {
             var mongoCliente = new MongoClient("mongodb://localhost:27017");
+            var database = mongoCliente.GetDatabase("Catalog");
+            dbCollection = database.GetCollection<Item>(collectionName);
+        }
 
-            
+        public async Task<IReadOnlyCollection<Item>> GetAllAsync()
+        {
+            return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
         }
 
     }
