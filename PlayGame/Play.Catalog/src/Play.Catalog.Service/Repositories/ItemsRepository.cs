@@ -6,7 +6,7 @@ using Play.Catalog.Service.Entities;
 
 namespace Play.Catalog.Service.Repositories
 {
-    public class ItemsRepository
+    public class ItemsRepository : IItemsRepository
     {
         private const string collectionName = "items";
         private readonly IMongoCollection<Item> dbCollection;
@@ -33,7 +33,8 @@ namespace Play.Catalog.Service.Repositories
 
         public async Task CreateAsync(Item entity)
         {
-            if (entity == null) {
+            if (entity == null)
+            {
                 throw new ArgumentNullException(nameof(entity));
             }
 
@@ -42,7 +43,8 @@ namespace Play.Catalog.Service.Repositories
 
         public async Task UpdateAsync(Item entity)
         {
-            if (entity == null) {
+            if (entity == null)
+            {
                 throw new ArgumentNullException(nameof(entity));
             }
 
