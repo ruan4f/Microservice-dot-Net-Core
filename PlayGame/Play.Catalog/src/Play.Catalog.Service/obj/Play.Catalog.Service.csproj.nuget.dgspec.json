@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {}
+    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {
+    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
+        "projectPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\ruanf\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\play.catalog.service\\obj\\",
+        "outputPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
