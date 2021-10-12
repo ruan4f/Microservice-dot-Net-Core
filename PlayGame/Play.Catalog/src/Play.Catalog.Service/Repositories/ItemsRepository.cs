@@ -24,7 +24,7 @@ namespace Play.Catalog.Service.Repositories
             return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
         }
 
-        public async Task<Item> GetItemAsync(Guid id)
+        public async Task<Item> GetAsync(Guid id)
         {
             FilterDefinition<Item> filter = filterBuilder.Eq(entity => entity.Id, id);
 
