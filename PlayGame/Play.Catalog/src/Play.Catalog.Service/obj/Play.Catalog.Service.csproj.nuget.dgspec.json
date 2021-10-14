@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +41,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MongoDB.Driver": {
+            "Play.Common": {
               "target": "Package",
-              "version": "[2.13.2, )"
+              "version": "[1.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -4,8 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
+  <ItemGroup>    
+    <PackageReference Include="Play.Common" Version="1.0.2" />    
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
