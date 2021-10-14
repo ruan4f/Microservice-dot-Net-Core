@@ -2,7 +2,12 @@ using System;
 
 namespace Play.Catalog.Service.Entities
 {
-    public class Item
+    public interface IEntity
+    {
+        Guid Id { get; set; }
+    }
+
+    public class Item : IEntity
     {
         public Guid Id { get; set; }
 
