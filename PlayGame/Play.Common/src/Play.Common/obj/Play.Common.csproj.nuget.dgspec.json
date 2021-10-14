@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\Play.Common\\Play.Common.csproj": {}
+    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\Play.Common\\Play.Common.csproj": {
+    "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\Play.Common\\Play.Common.csproj",
+        "projectUniqueName": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "projectName": "Play.Common",
-        "projectPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\Play.Common\\Play.Common.csproj",
+        "projectPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "packagesPath": "C:\\Users\\ruanf\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\Play.Common\\obj\\",
+        "outputPath": "D:\\Github\\Microservice-dot-Net-Core\\PlayGame\\Play.Common\\src\\Play.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
