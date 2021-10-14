@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Play.Common</id>
+    <version>1.0.0</version>
+    <authors>Play.Common</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.13.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Github\Microservice-dot-Net-Core\PlayGame\Play.Common\src\Play.Common\bin\Debug\net5.0\Play.Common.dll" target="lib\net5.0\Play.Common.dll" />
+  </files>
+</package>
