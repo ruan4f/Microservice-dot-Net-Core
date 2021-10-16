@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace Play.Invetory.Service
+namespace Play.Inventory.Service
 {
     public class Startup
     {
