@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Play.Invetory.Service/Play.Invetory.Service.csproj",
+                "${workspaceFolder}/src/Play.Inventory.Service/Play.Inventory.Service.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -23,7 +23,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/Play.Invetory.Service/Play.Invetory.Service.csproj",
+                "${workspaceFolder}/src/Play.Inventory.Service/Play.Inventory.Service.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -36,7 +36,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/src/Play.Invetory.Service/Play.Invetory.Service.csproj",
+                "${workspaceFolder}/src/Play.Inventory.Service/Play.Inventory.Service.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
