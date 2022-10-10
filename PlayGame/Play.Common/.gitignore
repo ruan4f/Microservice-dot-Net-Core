@@ -27,8 +27,8 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
+src/Play.Common/[Bb]in/
+src/Play.Common/[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
