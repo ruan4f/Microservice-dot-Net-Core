@@ -27,8 +27,8 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-src/Play.Catalog.Service/[Bb]in/
-src/Play.Catalog.Service/[Oo]bj/
+/src/Play.Catalog.Service/[Bb]in/
+/src/Play.Catalog.Service/[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 

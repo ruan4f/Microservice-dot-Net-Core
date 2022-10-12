@@ -1,2 +1,5 @@
 start the application
   dotnet run
+
+enable Https
+  dotnet dev-certs https --trust
